@@ -13,22 +13,56 @@ body {
     padding: 2px;
     text-align: center;
     font-style: italic;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+}
+.iklan {
+
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    padding: 5px;
+    
+    
+
 }
 
+.piklan {
+
+        font-size: 20px;
+        padding: 5px;
+        font-weight: bold;
+        animation: piklan 1s infinite;
+
+}
+
+
+@keyframes piklan {
+  50% {
+    opacity: 1; /* Teks 100% terlihat */
+  }
+    0% {
+    opacity: 0; /* Teks 0% terlihat */
+  }
+  70% {
+    opacity: 1; /* Teks 100% terlihat */
+  }
+}
 .konten {
 
-    background-color: rgb(58, 14, 14);
+    background-color: rgb(50, 6, 92);
     width: 100%;
-    height: 700px;
-
+    height: 1080px;
 
 }
 
 .username {
     width: 40%;
-    height: 3%;
+    height: 2%;
     position: relative;
-    top: 35%;
+    top: 28%;
     left: 30%;
     text-align: center;
     border-radius: 20px;
@@ -38,14 +72,15 @@ body {
 .password {
 
     width: 40%;
-    height: 3%;
+    height: 2%;
     position: relative;
-    top: 40%;
-    right: 12%;
+    top: 31%;
+    right: 12.8%;
     text-align: center;
     border-radius: 20px;
     outline: none;
     justify-content: center;
+    margin-left: 1px;
     
 }
 
@@ -54,38 +89,43 @@ p {
     color: white;
     position: relative;
     text-align: center;
-    top: 40%;
+    top: 31%;
     left: 7px;
     margin: 5px;
     font-size: 10px;
     font-weight: bold;
+    
+}
+
+a {
+    text-decoration: none;
 }
 
 .login {
 
     width: 42%;
-    height: 3%;
+    height: 2%;
     position: relative;
-    top: 40%;
+    top: 33%;
     left: 30%;
     text-align: center;
     border-radius: 20px;
-    padding-bottom: 20px;
-    padding-left: 4px;
-    padding-right: 4px;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
 }
 
 .daftar {
 
 
     width: 42%;
-    height: 3%;
+    height: 2%;
     position: relative;
-    top: 45%;
-    right: 12%;
+    top: 36%;
+    right: 12.5%;
     text-align: center;
     border-radius: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
 }
